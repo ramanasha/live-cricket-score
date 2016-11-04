@@ -39,7 +39,7 @@ class Cricket
                     foreach ($module->submenu as $domestic) {
                         $this->matches = array_merge($this->matches, $this->analysisMatch($domestic->matches, $allMatches, 'domestic', $domestic->title));
                     }
-                } elseif ($module->title == 'Others') {
+                } else {
                     $this->matches = array_merge($this->matches, $this->analysisMatch($module->matches, $allMatches, 'other'));
                 }
             }
@@ -55,7 +55,7 @@ class Cricket
      * @param null $title
      * @return array
      */
-    private function analysisMatch($moduleMatches, $allMatches, $type, $title = null)
+    protected function analysisMatch($moduleMatches, $allMatches, $type, $title = null)
     {
         $singleMatch = array();
         foreach ($moduleMatches as $matchID) {
@@ -83,7 +83,7 @@ class Cricket
      */
     public function getMatchScore($matchId, $matchType)
     {
-        if ($matchType == 'init') {
+        if ($matchType == 'international') {
             $url = 'http://www.espncricinfo.com/netstorage/' . $matchId . '.json?xhr=1';
         } else {
             $url = 'http://www.espncricinfo.com/ci/engine/match/' . $matchId . '.json?xhr=1';
