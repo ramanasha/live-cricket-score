@@ -9,7 +9,7 @@ Use ```composer require sohelrana820/live-cricket-score``` command to install pa
 
 ## Features
 
-- List os today's match (with live score)
+- List of today's match (with live score)
 - Details of individual live match
 - Working for the all international and domestic matches
 
