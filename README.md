@@ -5,7 +5,7 @@ This library provides a list of today's live matches and details of each individ
 
 ## Composer Installation
 
-Use ```composer require sohelrana820/live-cricket-score``` command to install package througg composer 
+Use ```composer require sohelrana820/live-cricket-score``` command to install package through composer 
 
 ## Features
 
