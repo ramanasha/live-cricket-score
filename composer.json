@@ -1,6 +1,6 @@
 {
     "name": "sohelrana820/live-cricket-score",
-    "description": "PHP library for getting live cricket score",
+    "description": "This is a open source PHP package for getting live cricket score. This library provides a list of today's live matches and details of each individual match as well as live score.",
     "keywords": ["Cricket Live Score", "Live Cricket Score", "PHP Cricket Score Class", "PHP library for Cricket Score", "PHP Cricket Score"],
     "homepage": "http://sohelrana.me/live-cricket-score",
     "license": "MIT",
