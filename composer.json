@@ -1,0 +1,22 @@
+{
+    "name": "sohelrana820/live-cricket-score",
+    "description": "PHP library for getting live cricket score",
+    "keywords": ["Cricket Live Score", "Live Cricket Score", "PHP Cricket Score Class", "PHP library for Cricket Score", "PHP Cricket Score"],
+    "homepage": "http://sohelrana.me/live-cricket-score",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sohelrana820",
+            "email": "me.sohelrana@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LiveScore\\": "src"
+        }
+    }
+}
